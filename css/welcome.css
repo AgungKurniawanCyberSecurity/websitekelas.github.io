@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1em;
+    font-family: 'Nunito', sans-serif;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+}
+*::before, *::after {
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: none;
+    overflow-y: none;
+}
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 0rem 1.5rem;
+        width: 100%;
+        height: 100vh;
+    }
+    .darklight-button i{
+        font-size: 2rem;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        margin-top: 1.5rem;
+        color: #191919;
+        cursor: pointer
+    }
+    .image img {
+        width: 100%;
+        object-fit: cover;
+        display: flex;
+    }
+    .title-image .heading {
+        margin-top: 1rem;
+    }
+    .title-image .heading > .heading1 {
+        font-size: 64px;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+    .title-image .heading > .heading2 {
+        font-size: 48px;
+    }
+    .heading {
+        line-height: 48px;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+    .title-image .sub-heading .sub-heading1 {
+        font-size: 28px;
+        font-weight: 400;
+    }
+    .button {
+        margin-top: 4rem;
+    }
+    .button button {
+        border: none;
+        display: flex;
+        background-color: #9AADF9;
+        width: 100%;
+        border-radius: 20px;
+        justify-content: center;
+        padding: 1rem;
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+        text-transform: capitalize;
+        box-shadow: 0 5px 15px rgba(145, 122, 253, 0.5),
+        inset 0 5px 15px rgba(98, 70, 234, 0.5);
+    }
+    .button buttom:hover {
+        background-color: #9AADF9;
+    }
+}
